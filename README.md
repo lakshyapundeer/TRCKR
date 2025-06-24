@@ -140,28 +140,6 @@ The application supports 8 different workout types with intensity-based calorie 
 | Dancing      | 4              | 6                | 9                 |
 | Boxing       | 8              | 12               | 16                |
 
-## Deployment
-
-### Vercel (Recommended)
-
-1. **Push to GitHub**
-   \`\`\`bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   \`\`\`
-
-2. **Deploy to Vercel**
-   - Connect your GitHub repository to Vercel
-   - Add environment variables in Vercel dashboard
-   - Deploy automatically
-
-### Environment Variables for Production
-\`\`\`env
-MONGODB_URI=your_production_mongodb_uri
-JWT_SECRET=your_production_jwt_secret
-NODE_ENV=production
-\`\`\`
 
 ## Security Features
 
@@ -172,25 +150,5 @@ NODE_ENV=production
 - Protected API routes with authentication middleware
 - Secure environment variable handling
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have questions, please:
-1. Check the existing issues on GitHub
-2. Create a new issue with detailed information
-3. Contact the development team
 
 ---
-
-Built with ❤️ using Next.js and MongoDB - TRCKR Fitness Tracker
